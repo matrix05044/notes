@@ -1,0 +1,36 @@
+{"extends": [
+        "airbnb",
+        "prettier"
+    ],
+    "globals": {
+        "window": true,
+        "document": true
+    },
+    "env":{
+        "jest": true
+
+    },
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js"
+                ]
+            }
+        ],
+        "react/jsx-props-no-spreading": "off",
+        "import/prefer-default-export": "off",
+        "react/no-unescaped-entities": 0,
+        "react/prop-types": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": [
+                    "src"
+                ]
+            }
+        }
+    }
+}
